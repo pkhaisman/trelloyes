@@ -18,7 +18,6 @@ class List extends React.Component {
                 <div className="List-cards">
                     {
                         cardIds.map((card) => {
-                            console.log(allCards[card]);
                             return <Card
                                 key={card} 
                                 title={allCards[card].title}                           

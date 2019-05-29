@@ -4,7 +4,7 @@ import './Card.css';
 class Card extends React.Component {
     render() {
         return (
-            <div class="Card">
+            <div className="Card">
                 <button type="button">delete</button>
                 <h3>{this.props.title}</h3>
                 <p>{this.props.content}</p>
